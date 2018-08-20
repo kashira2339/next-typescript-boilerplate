@@ -1,40 +1,25 @@
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/zeit/next.js/tree/master/examples/with-typescript)
+# kashira2339's TypeScript & Next.js
 
-# TypeScript Next.js example
+## How to use
 
-This is a really simple project that show the usage of Next.js with TypeScript.
-
-## How to use it?
-
-### Using `create-next-app`
-
-Execute [`create-next-app`](https://github.com/segmentio/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) or [npx](https://github.com/zkat/npx#readme) to bootstrap the example:
+### Instartion
 
 ```bash
-npx create-next-app --example with-typescript with-typescript-app
-# or
-yarn create next-app --example with-typescript with-typescript-app
-```
-
-### Download manually
-
-Download the example:
-
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-typescript
-cd with-typescript
-```
-
-Install it and run:
-
-```bash
+git clone --depth=1 --branch=master https://github.com/kashira2339/next-typescript-boilerplate.git my-app
+cd my-app
+rm -rf !$/.git
 npm install
-npm run dev
-# or
-yarn
-yarn dev
 ```
 
-## The idea behind the example
+### Development
 
-Use the [@zeit/next-typescript](https://github.com/zeit/next-plugins/tree/master/packages/next-typescript) plugin to inject the Webpack config required to compile TypeScript to JavaScript. For information about using a TSConfig have a [look at the plugin page](https://github.com/zeit/next-plugins/tree/master/packages/next-typescript/#readme).
+```bash
+npm run dev
+```
+
+### Production
+
+```bash
+npm run build
+npm run start
+```
